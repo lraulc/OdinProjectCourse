@@ -1,18 +1,15 @@
-*
-{
+* {
     font-family: sans-serif;
     margin: 0 auto;
     padding: 0;
 }
 
-.header-wraper
-{
+.header-wraper {
     background-color: #1F2937;
     height: 34rem;
 }
 
-.header-container
-{
+.header-container {
     width: 72.0rem;
     display: flex;
     justify-items: left;
@@ -21,15 +18,13 @@
     /* gap: 38rem; */
 }
 
-.header-logo    
-{
+.header-logo {
     margin: 0;
     color: #fff;
     font-size: 1.5rem;
 }
 
-.header-links   
-{
+.header-links {
     margin-right: 0;
     display: flex;
     justify-content: space-between;
@@ -37,8 +32,7 @@
     gap: 1.4rem;
 }
 
-.header-links a
-{
+.header-links a {
     font-family: sans-serif;
     color: rgb(184, 184, 184);
     font-size: 1rem;
@@ -46,8 +40,7 @@
     text-decoration: none;
 }
 
-.hero-section
-{
+.hero-section {
     display: flex;
     margin: 1.4rem 8rem;
     margin-top: 0;
@@ -56,8 +49,7 @@
     gap: 3.2rem;
 }
 
-.hero-left
-{
+.hero-left {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -66,16 +58,14 @@
     color: white;
 }
 
-h1.main-title
-{
+h1.main-title {
     font-size: 2.8rem;
     line-height: 3.4rem;
     letter-spacing: 1.px;
     font-weight: bold;
 }
 
-.hero-text  
-{
+.hero-text {
     color: #c3c3c3;
     font-weight: 200;
     /* letter-spacing: 1px; */
@@ -83,16 +73,14 @@ h1.main-title
     margin-bottom: 1.2rem;
 }
 
-.hero-img
-{
+.hero-img {
     clip-path: inset(15% 0 15% 0);
     width: auto;
     height: 25rem;
     object-fit: cover;
 }
 
-.btn-signup
-{
+.btn-signup {
     margin-left: 0;
     background-color: #2068cb;
     color: #fff;
@@ -103,6 +91,5 @@ h1.main-title
     border-radius: 15px;
     cursor: pointer;
 }
-.body-wraper
-{
-}
+
+.body-wraper {}
