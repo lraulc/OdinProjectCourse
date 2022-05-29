@@ -4,42 +4,132 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
         <title>Landing Page</title>
     </head>
     <header>
-        <div class="wraper">
-            <div class="header-wraper">
-                <div class="header-container">
-                    <h3 class="header-logo">Header Logo</h3>
-                    <div class="header-links">
-                        <a href="#">header link one</a>
-                        <a href="#">header link two</a>
-                        <a href="#">header link three</a>
-                    </div>
+        <div class="header-wraper">
+            <div class="header-container">
+                <h3 class="header-logo">Header Logo</h3>
+                <div class="header-links">
+                    <a href="#">header link one</a>
+                    <a href="#">header link two</a>
+                    <a href="#">header link three</a>
                 </div>
-                <div class="hero-section">
-                    <div class="hero-left">
-                        <h1 class="main-title">This website is awesome</h1>
-                        <p class="hero-text">
-                            This website has some subtext that goes here under
-                            the main title. It's smaller font and the color is
-                            lower <br />
-                            contrast.
-                        </p>
-                        <button class="btn-signup">Sign up</button>
-                    </div>
-                    <img
-                        src="Images/japan-4287832_1920.jpg"
-                        alt="aurora-borealis-4965488_1280"
-                        class="hero-img"
-                    />
+            </div>
+            <div class="hero-section">
+                <div class="hero-left">
+                    <h1 class="main-title">This website is awesome</h1>
+                    <p class="hero-text">
+                        This website has some subtext that goes here under the
+                        main title. It's smaller font and the color is lower
+                        <br />
+                        contrast.
+                    </p>
+                    <button class="btn-signup">Sign up</button>
                 </div>
+                <img
+                    src="Images/japan-4287832_1920.jpg"
+                    alt="aurora-borealis-4965488_1280"
+                    class="hero-img"
+                />
             </div>
         </div>
     </header>
     <body>
         <div class="body-wraper">
+            <div class="section-2-container">
+                <h2 class="section-2-header-text">Some random information.</h2>
+                <div class="section-2-cards-grid">
+                    <div class="section-2-card-1" id="cards">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"
+                            />
+                        </svg>
+                        <p class="section-2-card-text">
+                            This is some subtext under an illustraton or image
+                        </p>
+                    </div>
+                    <div class="section-2-card-2" id="cards">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
+                            />
+                        </svg>
+                        <p class="section-2-card-text">
+                            This is some subtext under an illustraton or image
+                        </p>
+                    </div>
+                    <div class="section-2-card-3" id="cards">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                            />
+                        </svg>
+                        <p class="section-2-card-text">
+                            This is some subtext under an illustraton or image
+                        </p>
+                    </div>
+                    <div class="section-2-card-4" id="cards">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="icon"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"
+                            />
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"
+                            />
+                        </svg>
+                        <p class="section-2-card-text">
+                            This is some subtext under an illustraton or image
+                        </p>
+                    </div>
+                </div>
+            </div>
             <a href="../index.html">Back to home</a>
         </div>
     </body>
